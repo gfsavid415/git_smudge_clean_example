@@ -35,6 +35,6 @@ if __name__ == '__main__':
             clean()
         else:
             usage()
-    except Exception, e:
-        print e
+    except Exception as e:
+        print(e)
         usage()
