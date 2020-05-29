@@ -1,4 +1,7 @@
-{
-    "username": "USERNAME",
-    "password": "PASSWORD"
-}
+name 'reduce' is not defined
+usage:
+        1. for git smudge 
+            python keyfilter.py --smudge
+        2. for git clean
+            python keyfilter.py --clean
+        
