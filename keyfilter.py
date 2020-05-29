@@ -6,12 +6,12 @@ REPLACE_CONTENT = [
 ]
 
 def usage():
-    print """usage:
+    print("""usage:
         1. for git smudge 
             python keyfilter.py --smudge
         2. for git clean
             python keyfilter.py --clean
-        """
+        """)
 
 def smudge():
     for line in sys.stdin:
