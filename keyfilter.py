@@ -1,4 +1,5 @@
 import sys
+from functools import reduce
 
 REPLACE_CONTENT = [
     ('USERNAME', 'github'),
